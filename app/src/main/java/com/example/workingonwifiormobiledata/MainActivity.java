@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         {
             if (networkInfo.getType() != ConnectivityManager.TYPE_WIFI)
             {
-                Toast.makeText(this,"This app doesnt work with wifi",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"This app doesn't work with wifi",Toast.LENGTH_LONG).show();
                 return false;
             }
             return true;
